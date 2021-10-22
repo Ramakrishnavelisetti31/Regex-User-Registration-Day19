@@ -24,13 +24,4 @@ public class RegexUserRegistration {
         String emailId = scanner.next();
         userDetails.emailId(emailId);
     }
-
-    public static void main(String[] args) {
-        System.out.println("Welcome to the User Registration program by Regex\n");
-
-        RegexUserRegistration regexUserRegistration = new RegexUserRegistration();
-//        regexUserRegistration.userFirstName();
-//        regexUserRegistration.userLastName();
-        regexUserRegistration.userEmailId();
-    }
 }
