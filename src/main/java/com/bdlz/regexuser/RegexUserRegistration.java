@@ -18,12 +18,4 @@ public class RegexUserRegistration {
         String lastName = scanner.next();
         userDetails.lastName(lastName);
     }
-
-    public static void main(String[] args) {
-        System.out.println("Welcome to the User Registration program by Regex\n");
-
-        RegexUserRegistration regexUserRegistration = new RegexUserRegistration();
-        regexUserRegistration.userFirstName();
-        regexUserRegistration.userLastName();
-    }
 }
