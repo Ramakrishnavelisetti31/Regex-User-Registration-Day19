@@ -20,6 +20,7 @@ public class RegexUserMain {
                     break;
                 case 2 :
                     regexUserRegistration.userLastName();
+                    break;
                 case 3 :
                     regexUserRegistration.userEmailId();
                     break;
