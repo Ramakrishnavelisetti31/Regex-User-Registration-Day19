@@ -32,4 +32,9 @@ public class RegexUserRegistration {
         userDetails.mobileNumber(mobileNumber);
     }
 
+    public void userPassword() {
+        System.out.println("Enter your MobileNumber");
+        String password = scanner.next();
+        userDetails.password(password);
+    }
 }
