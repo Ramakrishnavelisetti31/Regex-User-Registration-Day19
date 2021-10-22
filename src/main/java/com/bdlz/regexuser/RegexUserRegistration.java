@@ -31,5 +31,4 @@ public class RegexUserRegistration {
         String mobileNumber = scanner.next();
         userDetails.mobileNumber(mobileNumber);
     }
-
 }

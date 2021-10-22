@@ -20,6 +20,7 @@ public class RegexUserMain {
                     break;
                 case 2 :
                     regexUserRegistration.userLastName();
+                    break;
                 case 3 :
                     regexUserRegistration.userEmailId();
                     break;
@@ -40,5 +41,6 @@ public class RegexUserMain {
         System.out.println("\n Welcome to the User Registration program by Regex \n");
         RegexUserMain regexUserMain = new RegexUserMain();
         regexUserMain.choice();
+        regexUserMain.scanner.close();
     }
 }
