@@ -12,11 +12,4 @@ public class RegexUserRegistration {
         String firstName = scanner.next();
         userDetails.firstName(firstName);
     }
-
-    public static void main(String[] args) {
-        System.out.println("Welcome to the User Registration program by Regex\n");
-
-        RegexUserRegistration regexUserRegistration = new RegexUserRegistration();
-        regexUserRegistration.userFirstName();
-    }
 }
