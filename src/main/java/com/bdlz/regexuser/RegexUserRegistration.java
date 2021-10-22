@@ -1,5 +1,6 @@
 package com.bdlz.regexuser;
 
+
 import java.util.Scanner;
 
 public class RegexUserRegistration {
@@ -25,12 +26,10 @@ public class RegexUserRegistration {
         userDetails.emailId(emailId);
     }
 
-    public static void main(String[] args) {
-        System.out.println("Welcome to the User Registration program by Regex\n");
-
-        RegexUserRegistration regexUserRegistration = new RegexUserRegistration();
-//        regexUserRegistration.userFirstName();
-//        regexUserRegistration.userLastName();
-        regexUserRegistration.userEmailId();
+    public void userMobileNumber() {
+        System.out.println("Enter your MobileNumber");
+        String mobileNumber = scanner.next();
+        userDetails.mobileNumber(mobileNumber);
     }
+
 }
